@@ -1,0 +1,534 @@
+/*===============Responsive================*/
+
+@media screen and (max-width: 1920px) {
+	.logo img {
+	    padding: 20px;
+	    padding-left: 15%;
+	    width: 20%;
+	}
+	.logo {
+		background: #000;
+		position: fixed;
+	}
+	.primary-menu {
+	    padding-top: 6px;
+	    padding-right: 90px;
+	    width: 42%;
+	     /* display: block; */
+	}
+	.primary-menu a {
+		font-size: 20px;
+	}
+	
+	#info #content {
+	    width: 38%;
+	}
+	#info #image {
+	    width: 32%;
+	}
+
+	#night_and_day h1 {
+		font-size: 60px;
+		padding-top: 390px;
+	}
+	#night_and_day p {
+		width: 75%;
+		font-size: 26px;
+	}
+
+	#character h1, #the_novellas h1, #bazaar h1 {
+		font-size: 60px;
+	}
+	.row1 {
+		width: 10%;
+	}
+	.row2 {
+		width: 7%;
+	}
+	#character h3 {
+		font-size: 26px;
+	}
+	#character li p, #the_novellas li p, #bazaar #content p {
+		font-size: 16px;
+	}
+
+	#the_crew h1, #see_our_world h1, #contact h1 {
+		font-size: 60px;
+	}
+	#the_crew #content, #see_our_world #content, #wrapper7 #content {
+		width: 70%;
+	}
+	#the_crew #content p {
+		font-size: 21px;
+	}
+	#the_novellas .novella p {
+	    padding: 33px 20px;
+	    font-size: 24px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 14px 20px!important;
+	}
+
+	#see_our_world #content p, #contact p, #contact label {
+		font-size: 20px;
+	}
+	#see_our_world #sb1-content2, #see_our_world #content2 #sb2-content2{ 
+		font-size: 25px;
+	}
+
+	#bazaar #content {
+	    width: 64%;
+	}
+
+	#contact #content, #wrapper8 #content2 {
+	    width: 49%;
+	}
+
+	#info #content>h1 {
+		font-size: 42px;
+	}
+	#info #content p {
+		width: 525px;
+	    font-size: 23px;
+	}
+
+	#menu a{
+		font-size: 28px;
+	}
+
+	#footer #text {
+		width: 31%;
+		padding: 20px 9%;
+	}
+	#footer {
+		height: auto;
+		overflow: hidden;
+	}
+	#footer #icon {
+	    padding: 40px 10%;
+	    width: 15%;
+	}
+}
+@media screen and (max-width: 1480px) {
+	.primary-menu {
+	    padding-top: 6px;
+	    padding-right: 50px;
+	    width: 42%;
+	     /* display: block; */
+	}
+	.primary-menu a {
+		font-size: 14px;
+	}
+	#night_and_day h1 {
+	    font-size: 52px;
+	}
+	#night_and_day p {
+	    font-size: 18px;
+	}
+	#info #content>h1 {
+	    font-size: 34px;
+	}
+	#info #content p {
+		width: 73%;
+	    font-size: 16px;
+	}
+	#character h1, #the_novellas h1, #bazaar h1 {
+	    font-size: 42px;
+	}
+	#character li p, #the_novellas li p {
+	    font-size: 12px;
+	}
+	#the_crew h1, #see_our_world h1, #contact h1 {
+	    font-size: 42px;
+	}
+	#the_crew #content p {
+	    font-size: 14px;
+	}
+	#the_novellas .novella p {
+	    padding: 37px 20px;
+	    font-size: 18px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 22px 20px!important;
+	}
+	#see_our_world #content p, #contact p, #contact label {
+	    font-size: 16px;
+	}
+	#see_our_world #sb1-content2, #see_our_world #content2 #sb2-content2 {
+	    font-size: 22px;
+	}
+	#bazaar #content p {
+	    font-size: 14px;
+	}
+	#footer #text {
+	    width: 33%;
+	    padding: 19px 9%;
+	}
+	#footer #icon {
+	    width: 17%;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.logo h1 a {
+	    padding-left: 120px;
+	    font-size: 33px;
+	}
+	.site-name {
+	    width: 47%;
+	}
+	.logo img {
+	    padding: 31px;
+	    padding-left: 12%;
+	}
+	.primary-menu a {
+	    font-size: 14px;
+	}
+	.primary-menu {
+	    padding-top: 15px;
+	    padding-right: 50px;
+	    width: 46%;
+	     /* display: block; */
+	}
+
+	#night_and_day h1 {
+	    padding-top: 290px;
+	}
+	#night_and_day p {
+	    width: 1120px;
+	    font-size: 20px;
+	}
+
+	#info #content {
+	    /* width: 500px; */
+	    margin-left: 10%;
+	}
+	#info #content>h1 {
+	    font-size: 32px;
+	}
+	#info #content p {
+	    width: 425px;
+	    font-size: 19px;
+	}
+	#info #image {
+	    width: 460px;
+	    margin-left: 80px;
+	}
+
+	#the_novellas h1, #bazaar h1 {
+	    font-size: 43px;
+	}
+	#character h3 {
+	    font-size: 19px;
+	}
+	#character li p, #the_novellas li p, #bazaar #content p {
+	    font-size: 14px;
+	}
+	#character h1, #the_novellas h1, #bazaar h1 {
+	    font-size: 38px;
+	}
+
+	#the_crew #content, #see_our_world #content, #wrapper7 #content {
+	    width: 980px;
+	}
+	#the_crew h1, #see_our_world h1, #contact h1 {
+	    font-size: 38px;
+	}
+	#the_crew #content p {
+	    font-size: 14px;
+	}
+
+	#the_novellas .novella p {
+	    padding: 39px 20px;
+	    font-size: 16px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 26px 20px!important;
+	}
+
+	#see_our_world #content p, #contact p, #contact label {
+	    font-size: 14px;
+	}
+	#see_our_world #sb1-content2, #see_our_world #content2 #sb2-content2 {
+	    font-size: 18px;
+	}
+
+	#contact #content{
+	    width: 55%;
+	}
+
+	#footer #text {
+		font-size: 11px;
+	}
+	#footer #icon {
+	    padding: 34px 10%;
+	    width: 20%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+/* 	.logo img {
+	    padding: 22px;
+	    padding-left: 30px;
+	} */
+	.primary-menu a {
+	    font-size: 14px;
+	}
+	.primary-menu {
+	    padding-top: 10px;
+	    padding-right: 30px;
+	    width: 56%;
+	    /* display: block; */
+	}
+
+	#night_and_day p {
+	    width: 77%;
+	    font-size: 16px;
+	}
+
+	#info #content>h1 {
+	    font-size: 27px;
+	}
+	#info #content {
+	    width: 425px;
+	    margin-left: 7%;
+	}
+	#info #image {
+	    width: 420px;
+	    margin-left: 50px;
+	}
+	#info #content p {
+	    width: 360px;
+	    font-size: 16px;
+	}
+
+	#character h1, #the_novellas h1, #bazaar h1 {
+	    font-size: 32px;
+	}
+	#character h3 {
+	    font-size: 12px;
+	}
+	#character li p, #the_novellas li p, #bazaar #content p {
+	    font-size: 12px;
+	}
+
+	#the_crew h1, #see_our_world h1, #contact h1 {
+	    font-size: 32px;
+	}
+	#the_crew #content, #see_our_world #content, #wrapper7 #content {
+	    width: 74%;
+	}
+	#the_crew #content p {
+	    font-size: 11px;
+	}
+
+	#the_novellas h1, #bazaar h1 {
+	    font-size: 32px;
+	}
+	#the_novellas .novella p {
+	    padding: 39px 20px;
+	    font-size: 16px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 25px 20px!important;
+	}
+	#see_our_world #content p, #contact p, #contact label {
+	    font-size: 12px;
+	}
+
+	#footer #text {
+	    width: 40%;
+	    padding: 10px 7%;
+	}
+	#footer #icon {
+	    width: 23%;
+	    padding: 23px 10%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.logo img{
+		display: block;
+		width: 44%;
+	    margin: 0 auto;
+	    padding: 12px!important;
+	}
+	.logo .primary-menu {
+		width: 80%;
+		margin: 0px auto;
+		/* display: block; */
+	}
+
+	#night_and_day p {
+	    width: 90%;
+	}
+	#info #content {
+	    width: 80%;
+	    text-align: center;
+	}
+	#info #content {
+	    width: 80%;
+	    text-align: center;
+	    float: none;
+	    margin: 0px auto!important;
+	    margin-top: 83%!important;
+	}
+	#info #content>h1{
+	    text-align: center!important;
+	    width: 100%;
+	    font-size: 35px;
+	}
+	#info #content p {
+	    text-align: center!important;
+	    width: 100%;
+	}
+	#info hr {
+		text-align: center!important;
+		margin: 0px auto;
+		margin-bottom: 31px!important;
+	}
+	#info {
+		position: relative;
+	}
+	#info #image {
+		position: absolute;
+		top: 100px;
+		margin: 0px 13%;
+		width: 72%;
+	}
+	#info button {
+		float: none;
+	}
+
+	#character h3 {
+	    font-size: 20px;
+	}
+
+	.row1 {
+	    width: 14%;
+	}
+	.row2 {
+	    width: 10%;
+	}
+	#the_crew #content p {
+	    font-size: 16px;
+	}
+
+	#the_novellas .novella p {
+	    font-size: 14px;
+	    padding: 41px 10px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 29px 20px!important;
+	}
+
+	#see_our_world #content3 img, #see_our_world #content4 img {
+	    width: 31%!important;
+	}
+
+	.column-full {
+		width: 99%;
+	}
+	.column-half {
+		width: 48%;
+	}
+	.column-full , .column-half {
+		float: none;
+		display: inline-block;
+	}
+	#footer #icon, #footer #text {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 0px;
+	}
+	#icon-menu i, .respon-menu li{
+		display: block;
+	}
+	.primary-menu{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#icon-menu i{
+		top: 9px;
+	}
+	.respon-menu {
+		top: 16px;
+	}
+	.column-half, .column-full{
+		width: 100%
+	}
+	.logo .primary-menu {
+	    width: 87%;
+	}
+	.column-full {
+	    text-align: center;
+	    margin-top: -40px;
+	}
+	#see_our_world #content3 img, #see_our_world #content4 img {
+	    width: 48%!important;
+	}
+	#info #content>h1 {
+	    font-size: 32px;
+	}
+	#contact label {
+	    float: left;
+	}
+	.primary-menu a {
+	    font-size: 12px;
+	}
+	
+	.primary-menu {
+		padding-top: 1%;
+	}
+	
+	#see_our_world #sb1-content2, #see_our_world #content2 #sb2-content2 {
+	    font-size: 16px;
+	}
+	#contact label{
+		margin-top: 0px;
+	}
+	#the_novellas .novella p {
+	    font-size: 24px;
+	    padding: 32px 10px;
+	}
+	#the_novellas .novella_sub {
+	    padding: 12px 20px!important;
+	}
+	/* .primary-menu{
+		padding: 0px 10px;
+		position: fixed;
+		right: 0px;
+		top: 35px;
+		color: #fff;
+		display: none;
+		z-index: 3;
+	}
+	.primary-menu li{
+		list-style: none;
+		width: 100%;
+		overflow: inherit;
+		display: none;
+		
+	}
+	.primary-menu li a{
+		text-decoration: none;
+		color: #fff;
+		display: block;
+		padding: 10px;
+		box-sizing: border-box;
+		background: #000;
+		border: 1px solid #fff;
+	}
+	.primary-menu li a:hover{
+		background: #2A0A0A;
+	}
+	.logo .primary-menu {
+	    width: 97%;
+	    margin: 5px auto;
+	} */
+}
+

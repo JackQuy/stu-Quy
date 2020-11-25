@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Breadcrumb in boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center">Xây dựng thanh breadcrumb trong Boostrap</h1>
+				<nav>
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="">Home</a>
+						</li>
+						<li class="breadcrumb-item">
+							<a href="">Category</a>
+						</li>
+						<li class="breadcrumb-item active">
+							Computer
+						</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<style>
+		.breadcrumb-item+.breadcrumb-item::before {
+		    content: ">"; /* mặc định là dấu "/" */
+		}
+	</style>
+</body>
+</html>

@@ -1,0 +1,216 @@
+/*===============Responsive================*/
+
+@media screen and (max-width: 1800px) {
+	#wrapper5 #slick-slide11 p, #wrapper5 #slick-slide15 p,
+	#wrapper5 #slick-slide19 p, #wrapper5 #slick-slide113 p{
+		padding: 28px!important;
+	} 
+}
+
+@media screen and (max-width: 1024px) {
+	#wrapper{
+		width: 100%;
+	}
+	.The-Curseborn-Saga{
+		text-align: center;
+		width: 30%;
+		margin-left: 0px;
+	}
+	#menu{
+		margin-right: 2%;
+		padding-right: 5%;
+	}
+	
+	#wrapper1 #content{
+		width: 98%;
+	}
+	#menu ul{
+		padding-left: 0px!important;
+	}
+	#wrapper2{
+		padding-top: 30px;
+		height: auto!important;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper2 #content1>p{
+		height: 50px;
+	}
+	#wrapper2 #content2 {
+		height: auto;
+	}
+	#wrapper4 button{
+		width: 16%;
+	}
+	#wrapper4{
+		/* padding-top: 10px; */
+		height: auto;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper5 .novella p{
+		font-size: 16px!important;
+		line-height: 1.2;
+	}
+	#wrapper5 #slick-slide11 p {
+	    padding: 33px!important;
+	}
+	
+	#wrapper6{
+		overflow: inherit;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	#wrapper7 #content{
+		width: 98%;
+	}
+	#wrapper8 #content1, #wrapper8 #content2{
+		width: 80%;
+	}
+	#footer #text{
+		width: 35.4%;
+	}
+	#footer #icon{
+		width: 25%;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	#menu{
+		display: none;
+	}
+	.Night-and-Day{
+		padding-top: 185px!important;
+	}
+	#respon-menu {
+		padding-top: 1%;
+	}
+	#header .The-Curseborn-Saga{
+		display: block;
+		padding-top: 0px!important;
+		padding: 2% 0px!important;
+		width: 100%;
+		margin: 0px auto;
+	}
+	#wrapper1{
+		padding-bottom: 70px;
+		height: auto!important;
+	}
+	.row1{
+		width: 30%;
+	}
+	.row2{
+		width: 20%;
+	}
+	#wrapper2 #content2{
+		top: 70px;
+		position: absolute;
+		width: 60%;
+		margin: 0px 20%!important;
+	}
+	#wrapper2 #content1>p{
+		height: 50px;
+		text-align: center;
+	}
+	#wrapper2{
+		width: 100%;
+		position: relative;
+	}
+	#wrapper2 #row1{
+		margin: 0px auto;
+		width: 30%;
+	}
+	#wrapper2 #content1{
+		width: 90%;
+		margin-top: 70%!important;
+		margin: 0px auto;
+		text-align: center;
+		margin-left: 5%;
+	}
+	#wrapper2 #content1 #sb-content1{
+		width: 100%;
+	}
+	#wrapper3{
+		height: auto;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper4 button{
+		width: 30%;
+	}
+	#wrapper5 #content{
+		margin: 0px auto;
+	}
+	#wrapper6 #sb1-content2{
+		float: none!important;
+	}
+	#wrapper6 #content2 #sb2-content2 {
+	    font-size: 16px;
+	    float: none!important;
+	}
+	#wrapper6 #content2 {
+	    margin-top: 40px;
+	}
+	#wrapper6 #content3 img{
+		width: 42%;
+	}
+	#wrapper8 #content1, #wrapper8 #content2{
+		width: 90%;
+	}
+	#wrapper8 {
+		padding-bottom: 30px;
+		height: auto;
+		overflow: inherit;
+	}
+	#wrapper8 #content2 #sb1-content2 #email{
+		margin-top: 31px;
+	}
+	#wrapper8 #content2 #sb1-content2>div{
+		float: none!important;
+		width: 100%!important;
+	}
+	#wrapper8 #content2>input{
+		width: 40%!important;
+	}
+	#wrapper8 #content2 {
+	    margin-top: 43px;
+	}
+	#wrapper8 h1 {
+		line-height: 1;
+	}
+	#wrapper7 {
+		height: auto;
+		overflow: inherit!important;
+		margin: 0px auto;
+		padding-bottom: 70px;
+	}
+	#wrapper7 #content{
+		width: 90%;
+		padding-bottom: 20px;
+	}
+	#icon-menu i, #respon-menu li{
+		display: block;
+	}
+	#footer #text, #footer #icon {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 1% 0px;
+		line-height: 0;
+	}
+	#footer {
+		height: auto;
+		overflow: inherit;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#header .The-Curseborn-Saga{
+		padding: 6% 0px!important;
+	}
+	#respon-menu {
+		padding-top: 6%;
+	}
+}

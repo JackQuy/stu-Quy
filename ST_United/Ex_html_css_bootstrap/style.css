@@ -1,0 +1,211 @@
+.header {
+  height: 56px;
+  display: block;
+  box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  /* position: fixed;
+  background-color: white;
+  z-index: 2; */
+}
+.fb-search .round {
+  border-radius: 24px;
+  background-color: transparent;
+  padding: 8px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  width: 76%;
+}
+.header-main ul {
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+}
+.header-main-item:hover {
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+.header-main-item {
+  padding: 10px 40px;
+}
+.active {
+  color: #0174df;
+  border-bottom: 5px solid #0174df;
+}
+/* .header-main .note {
+    background: #424242 repeat;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+.header-main-item:hover>.note {
+    display: block;
+} */
+/* .header-sidebar {
+
+} */
+.header-sidebar .item {
+  background-color: #d8d8d8;
+  padding: 8px 10px;
+  /* width: 50px;
+    height: 40px; */
+  border-radius: 28px;
+  margin-top: 10px;
+}
+.header-sidebar ul {
+  justify-content: space-evenly;
+  /* flex-direction: row; */
+}
+/* ============= content ================== */
+.content {
+    background-color: #F2F2F2;
+    /* background-color: var(--web-wash); */
+    margin-top: 56px;
+}
+/* ===============list menu content===================== */
+.content-menu {
+  position: fixed;
+  padding: 16px 15px;
+}
+.content-menu:hover {
+  height: 100vh;
+  box-sizing: border-box;
+}
+.content-menu ul {
+  border-bottom: 1px solid #BDBDBD;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.list-menu .item {
+  height: 44px;
+}
+.list-menu .item:hover {
+  background-color: #E6E6E6;
+  border-radius: 5px;
+}
+/* .list-menu .title a{
+  justify-content: space-between;
+  display: none;
+} */
+.list-menu .title a:hover {
+  /* display: block; */
+  background-color: #D8D8D8;
+  border-radius: 5px;
+}
+/* ============= sub content================= */
+.sub-content {
+  position: absolute;
+  right: 25%;
+}
+.list-status {
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+  list-style: none;
+  display: inline-flex;
+}
+.list-status-item {
+  width: 25%;
+  height: 150px;
+  margin: 5px;
+  background-size: 100% auto;
+  border-radius: 10px;
+}
+.list-status .item-1 {
+  background: url("images/quy.jpg");
+}
+.list-status-item img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 4px solid #0174df;
+    box-sizing: unset;
+}
+.list-status .item-2 {
+  background-image: url("images/morning.jpg");
+}
+.list-status .item-3 {
+  background-image: url("images/green.jpg");
+}
+.list-status .item-4 {
+  background-image: url("images/family.jpg");
+}
+.list-status .item-5 {
+  background-image: url("images/bird.jpg");
+}
+.slick-dots button {
+    display: none!important;
+}
+
+.sub-content-status {
+  width: 85%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  border-radius: 7px;
+}
+.sub-content-status .status-top .imag {
+  width: 8%;
+}
+.sub-content-status .status-top .sub-status {
+  background-color: #F2F2F2;
+  border-radius: 24px;
+  width: 90%;
+  margin-left: 5px;
+}
+.sub-content-status .add-status .st-video:hover {
+  background-color: #E6E6E6;
+}
+.sub-content-status .add-status .sub-content-status-title img {
+  width: 12%;
+  height: 25%;
+}
+.substatus-selection a:hover {
+  background-color: #D8D8D8;
+  border-radius: 5px;
+}
+.substatus-selection a {
+  padding: 10px 30px;
+}
+
+/* ============== content sidebar==================== */
+.content-sidebar {
+  padding: 16px 10px 0px 38px;
+  right: 0;
+  position: fixed;
+  top: 50px;
+  overflow: scroll;
+}
+.content-sidebar:hover {
+  height: 100vh;
+  overflow: auto;
+}
+.content-sidebar-top .sidebar-title {
+  justify-content: space-between;
+}
+.content-sidebar-top .sidebar-title a:hover {
+  background-color: #E6E6E6;
+  border-radius: 5px;
+}
+.content-sidebar .sidebar-content .imag {
+  width: 18%;
+  height: 50%;
+}
+.content-sidebar .sidebar-content:hover {
+  background-color: #E6E6E6;
+}
+.sidebar-subcontent .text-secondary .sub-imag {
+  width: 10%;
+}
+.sidebar-bottom .sidebar-bottom-title a:hover {
+  background-color: #E6E6E6;
+}
+.sidebar-list-friend .item img {
+  width: 18%;
+  height: 43px;
+}
+.sidebar-list-friend .item:hover {
+  background-color: #E6E6E6;
+  cursor: pointer;
+  border-radius: 5px;
+}

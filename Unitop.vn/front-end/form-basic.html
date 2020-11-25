@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form basic in boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mb-4">
+				<h1 class="text-center">Login Form</h1>
+				<form action="">
+					<div class="form-group">
+						<label for="username">Username</label>
+						<input type="text" class="form-control" name="username" id="username">
+					</div>
+					<div class="form-group">
+						<label for="password">Password</label>
+						<input type="password" class="form-control" name="password" id="password">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" name="email" id="email">
+					</div>
+					<div class="form-group">
+						<label for="category">Category</label>
+						<select name="category" id="category" class="form-control">
+							<option value="">Php</option>
+							<option value="">Java</option>
+							<option value="">Python</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="detail">Detail</label>
+						<textarea class="form-control" name="detail" id="detail" cols="30" rows="5">mlem mlem</textarea>
+					</div>
+					<div class="form-group">
+						<input type="radio" name="gender" id="female">
+						<label for="female">Nữ</label>
+						<input type="radio" name="gender" id="male">
+						<label for="male">Nam</label>
+					</div>
+					<div class="form-group">
+						<label for="filter">Lọc sản phẩm</label>
+						<input type="range" class="form-control-range" name="filter" id="filter">
+					</div>
+					<div class="form-group">
+						<input type="file" class="form-control-file" name="file" id="imgInp">
+					</div>
+					<div class="form-group form-check">
+						<input type="checkbox" class="form-check-input" name="remember-me" id="remember-me">
+						<label for="remember-me" class="form-check-label">Remember me</label>
+					</div>
+					<div id="image_view"> 
+					    <img id="uploaded_image" src="#" class="w-50 h-auto mb-4"> 
+					</div> 
+					
+					
+					<button name="btn-login" class="btn btn-primary btn-block">Login</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function() { 
+		    function readURL(input) { 
+			    if (input.files && input.files[0]) { 
+			     var reader = new FileReader(); 
+
+			     reader.onload = function (e) { 
+			      $('#uploaded_image').attr('src', e.target.result); 
+			     } 
+
+			     reader.readAsDataURL(input.files[0]); 
+			    } 
+			} 
+
+			$("#imgInp").change(function(){ 
+			    readURL(this); 
+			}); 
+		}); 
+
+		function file_select(event) { 
+		    $("#uploaded_image").attr("src", $("#id_image").val()); 
+		} 
+	</script>
+</body>
+</html>

@@ -1,0 +1,627 @@
+
+body{
+	margin: 0 auto;
+	overflow: inherit;
+	position: relative;
+}
+a:hover, a:visited {
+	color: #ff1f00;
+	text-decoration: underline;
+}
+input, input[type = "submit"], button {
+	border: 1px solid #c8c8c8!important;
+	padding: 5px 10px;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+.site-name, .description{
+	width: 200px;
+	float: left;
+}
+.logo h1 a{
+	padding: 30px;
+	padding-left: 186px;
+	color: #00a5ff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 41px;
+    font-family: "OpenSans-SemiBold";
+    font-style: italic;
+    letter-spacing: -2px;
+}
+.logo img{
+	padding: 30px;
+	padding-left: 186px;
+}
+.logo{
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	z-index:2;
+	/* top: 0px; */
+}
+.primary-menu {
+	float: right;
+	padding-top: 20px;
+	padding-right: 70px;
+}
+.primary-menu ul li{
+	display: inline-block;
+}
+.primary-menu ul {
+	padding-left: 0px;
+}
+.primary-menu a{
+	text-decoration: none;
+	padding: 0px 10px;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #fff;
+}
+.primary-menu li div {
+	width: 31px; 
+	height: 3px; 
+	background-color: #0092ff; 
+	margin-top: 19px!important; 
+	margin: 0px auto;
+	display:block;
+}
+/* ==================== night_and_day ==================== */
+#night_and_day {
+	background: url('http://localhost:8888/quy/wp-content/uploads/2020/06/wrapper1.png') no-repeat fixed;
+	background-size: cover;
+	padding-bottom: 89px;
+}
+#night_and_day h1 {
+	font-family: OpenSans;
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: -2.2px;
+	text-align: center;
+	color: #00a5ff;
+	padding-top: 297px;
+	text-transform: uppercase;
+	/*padding-left: 587px;*/
+	margin-top: 0px;
+}
+#night_and_day p{
+	width: 1118px;
+	height: 69px;
+	margin: 0px auto;
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #fff;
+}
+#night_and_day #icon{
+	width: 50px;
+	height: 50px;
+	padding-top: 232px;
+	text-align: center;
+	margin: 0px auto;
+}
+#night_and_day #icon i{
+	text-shadow: 100%;
+	color: white;
+}
+
+/* ==================== info ==================== */
+#info{
+	/* min-height: 611px; */
+	width: 100%;
+	/*height: auto;*/
+	padding: 79px 0px;
+	overflow: inherit;
+	box-sizing: border-box;
+	text-align: center;
+}
+#info h1 span{
+	font-weight: 600;
+	font-family: "OpenSans-SemiBold";
+}
+#info #content{
+	width: 520px;
+	margin-left: 12%;
+	/*margin-top: 106px;*/
+	float: left;
+	/* top: 0px; */
+	/* display: inline-block; */
+}
+#info #content>h1{
+	/* height: 50px; */
+	width: 100%;
+	font-family: OpenSans;
+	font-size: 34px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.09;
+	letter-spacing: -0.68px;
+	text-align: left;
+	color: #222222;
+	text-transform: uppercase;
+}
+button{
+	width: 35%;
+	height: 45px;
+	text-align: center;
+	color: #6c6c6c;
+	background: #fff;
+	border: 1px solid #6c6c6c;
+	border-radius: 5px;
+	margin-top: 37px;
+}
+button:hover {
+	background: #00a8ff;
+}
+#info button {
+	float: left;
+}
+#info hr{
+	width: 99px;
+	height: 5px;
+	background-color: #0096ff;
+	display: block;
+	margin-left: 0px;
+	margin-bottom: 31px;
+}
+#info #image {
+	margin-left: 135px;
+	width: 451px;
+	/*background: url("images/wrapper2.png") no-repeat;*/
+	/* height: 451px; */
+	float: left;
+	/* display: inline-block; */
+}
+#info #image img{
+	width: 100%;
+	height: auto;
+}
+#info #content p{
+	width: 428px;
+	font-family: OpenSans;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: -0.72px;
+	text-align: left;
+	color: #6c6c6c;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.clearfix::after {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+/* ==================== Characters ==================== */
+#character {
+	background: url('http://localhost:8888/quy/wp-content/uploads/2020/06/wrapper3.png') no-repeat fixed;
+	background-size: cover;
+	text-align: center;
+	overflow: inherit;
+	padding-bottom: 64px;
+}
+#character h1, #the_novellas h1, #bazaar h1{
+	padding-top: 100px;
+	color: #fff;
+	font-family: OpenSans;
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+}
+.row1{
+	width: 7%;
+	height: 5px;
+	background: #00a8ff;
+	margin: 30px auto 0px auto;
+}
+.row2{
+	width: 4.5%;
+	height: 5px;
+	background: #00a8cc;
+	margin: 9px auto;
+	margin-bottom: 46px;
+}
+#character .character{
+	/* width: 249px!important; */
+	height: auto;
+	overflow: inherit;
+	display: inline-block;
+	text-align: center;
+	margin: 0px 21px;
+}
+#character .character img{
+	width: 88%;
+	height: auto;
+}
+#character #characters{
+	margin: 0px!important;
+	padding-left: 0px;
+	padding: 0px 140px!important;
+	position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+#character h3{
+	font-family: OpenSans;
+	font-size: 20px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #fff;
+}
+#character li p, #the_novellas li p, #bazaar #content p{
+	font-family: OpenSans;
+	font-size: 13px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.71;
+	letter-spacing: normal;
+	margin: 0px!important;
+	color: #fff;
+}
+.slick-dots li:hover{
+	background: #00a8ff!important;
+}
+.slick-dots li{
+	background: #fff!important;
+	width: 9px!important;
+	height: 9px!important;
+	display: inline-block;
+	margin: 0px 5px;
+}
+.slick-dots li button{
+	display: none!important;
+}
+.slick-list{
+	padding-bottom: 70px!important;
+	overflow: hidden!important;
+}
+.slick-dots{
+	position: static!important;
+	text-align: center;
+	padding-left: 0px;
+}
+.slick-dots .slick-active{
+	background: #00a8ff!important;
+}
+
+/* ==================== The Crew ==================== */
+#the_crew {
+	width: 100%;
+	/* height: auto; */
+	text-align: center;
+	padding-top: 100px;
+	box-sizing: border-box;
+	overflow: inherit;
+	padding-bottom: 70px;
+}
+#the_crew #content, #see_our_world #content, #wrapper7 #content {
+	width: 1130px;
+	margin: 0px auto;
+	overflow: inherit;
+}
+#the_crew h1, #see_our_world h1, #contact h1{
+	font-family: OpenSans;
+	font-size: 44px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.55;
+	letter-spacing: normal;
+	text-transform: uppercase;
+}
+#the_crew #content p{
+	font-family: "OpenSans";
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #6c6c6c;
+}
+
+/* ==================== The Novellas ==================== */
+#the_novellas {
+	width: 100%;
+	/* height: 517px; */
+	background: url("http://localhost:8888/quy/wp-content/uploads/2020/06/wrapper5.png") no-repeat fixed;
+	background-size: cover;
+	text-align: center;
+	overflow: inherit;
+	padding-bottom: 70px;
+}
+#the_novellas .novella{
+	margin: 0px 12.4px;
+	height: 105px;
+	background: #000;
+	border: 1px solid #3e3e3e;
+	/* overflow: hidden!important; */
+	/* display: inline-block; */
+	width: 299px;
+	float: left;
+}
+#the_novellas .novella p{
+	padding: 40px 20px;
+	font-size: 15px;
+/* 	align-items: center;
+    display: flex; */
+}
+#the_novellas ul{
+	padding-top: 58px!important;
+	overflow: hidden;
+	padding: 0px 50px;
+	list-style: none;
+	box-sizing: border-box;
+}
+#the_novellas .novella_sub {
+	padding: 28px 20px!important;
+}
+
+/* ==================== See Our World ==================== */
+#see_our_world {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 100px;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+	overflow: inherit;
+}
+#see_our_world h1 span{
+	font-weight: 600;
+	font-family: "OpenSans-SemiBold";
+}
+#see_our_world #content2 {
+	margin-top: 111px;
+	padding: 0px 10px;
+}
+#see_our_world #content p, #contact p, #contact label{
+	font-family: OpenSans;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: normal;
+	text-align: center;
+	color: #808080;
+	margin-top: 42px;
+}
+#see_our_world #content2 #sb1-content2{
+	float: left;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #222222;
+}
+#see_our_world #sb1-content2, #see_our_world #content2 #sb2-content2{
+	font-family: OpenSans;
+	font-size: 18px;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	text-align: center;
+}
+#see_our_world #content2 #sb2-content2{
+	float: right;
+	color: #6c6c6c;
+}
+#see_our_world #content2 #sb2-content2 span:hover{
+	cursor: pointer;
+}
+#see_our_world #content2 #sb2-content2  #sb2-content2_1{
+	font-family: "OpenSans-SemiBold";
+}
+#see_our_world #content2 a{
+	text-decoration: none;
+	color: #000;
+}
+#see_our_world #content3 img, #see_our_world #content4 img{
+	margin: 1%;
+	width: 23%!important;
+	height: auto;
+	/*position: relative;*/
+}
+#see_our_world #content4 {
+	display: none;
+}
+
+/* ==================== Bazaar ==================== */
+#bazaar {
+	width: 100%;
+	text-align: center;
+	background: url("http://localhost:8888/quy/wp-content/uploads/2020/06/wrapper7.png") no-repeat fixed;
+	background-size: cover;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-bottom: 126px;
+}
+#bazaar h1{
+	font-family: "OpenSans-SemiBold";
+	font-size: 44px;
+	font-weight: 600;
+}
+#bazaar #content>p{
+	font-style: italic;
+	font-size: 16px;
+}
+#bazaar #content{
+	width: 944px;
+	margin: 0px auto;
+}
+
+/* ==================== feel free to contact us ==================== */
+#contact {
+	width: 100%;
+	text-align: center;
+	padding-top: 100px;
+	box-sizing: border-box;
+	padding-bottom: 100px;
+}
+#contact #content, #wrapper8 #content2{
+	width: 750px;
+	margin: 0px auto;
+	overflow: inherit;
+}
+#contact h1 span{
+	font-weight: 900;
+	font-family: "OpenSans-SemiBold";
+}
+#responsive-form{ 
+	 width:100%; 
+} 
+#responsive-form input {
+	width: 96%;
+	margin-top: 11px;
+}
+.form-row{ width: 100%; } 
+.column-half, .column-full{
+	float: left;
+	position: relative;
+	padding: 0.65rem;
+	width:100%;
+	text-align: left;
+	box-sizing: border-box;
+	overflow: inherit;
+} 
+.column-full textarea{
+	width: 100%;
+	margin-top: 11px;
+	border: 1px solid #c8c8c8;
+}
+.column-full input{
+	float: right;
+	font-family: "OpenSans";
+	width: 165px;
+	background: #00a8ff;
+	color: white;
+	text-transform: uppercase;
+	height: 40px;
+	font-size: 18px;
+}
+#responsive-form span {
+	color: red;
+}
+/**---------------- Media query ----------------**/
+@media only screen and (min-width: 48em) { .column-half{ width: 50%; } }
+.form-row{ width: 100%; }
+
+/*===============footer================*/
+#footer{
+	width: 100%;
+	background-color: #222222;
+	color: #fff;
+}
+#footer #icon{
+	float: right;
+	padding: 30px 10%;
+	width: 240px;
+}
+#footer #icon p{
+	margin: 0px;
+}
+#footer #icon img{
+	padding: 0px 7px;
+	color: #F2F2F2;
+}
+#footer #icon img:hover {
+	color: #fff;
+	cursor: pointer;
+}
+#footer #text{
+	width: 28.4%;
+	font-family: 'OpenSans';
+	font-size: 14px;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 3.5;
+	letter-spacing: 0.3px;
+	text-align: center;
+	color: #b2b2b2;
+	padding: 10px 9%;
+	float: left;
+}
+#footer #text span{
+	font-weight: bold;
+} 
+
+.respon-menu{
+	padding: 0px 10px;
+	position: fixed;
+	right: 0px;
+	top: 35px;
+	color: #fff;
+	display: none;
+	z-index: 3;
+	width: 97%;
+	margin-top: 26px;
+}
+.respon-menu ul {
+	padding-left: 0px;
+}
+#icon-menu i{
+	right: 10px;
+	top: 14px;
+	color: #E6E6E6;
+	display: none;
+	position: fixed;
+	z-index: 3;
+	padding:0px 5px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+}
+#icon-menu i:hover{
+	cursor: pointer; /* thay đổi kiểu con trỏ */
+}
+.respon-menu li{
+	list-style: none;
+	width: 100%;
+	/* height: 85px; */
+	overflow: inherit;
+	display: none;
+	
+}
+.respon-menu li a{
+	text-decoration: none;
+	color: #fff;
+	/* line-height: 4; */
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #000;
+	border: 1px solid #fff;
+}
+.respon-menu li a:hover{
+	background: #2A0A0A;
+}

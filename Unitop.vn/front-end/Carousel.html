@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel slideShow in boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#home-slide').carousel({
+				interval: 2000
+			});
+		});
+	</script>
+	
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h1 class="text-center">Carousel slideShow in boostrap</h1>
+				<div id="home-slide" class="carousel slide" >
+					
+					<div class="carousel-innner">
+						<div class="carousel-item active">
+							<img src="images/bg-reviews.jpg" alt="" class="d-block w-100 h-50">
+							<div class="carousel-caption">
+								<h5>Caption 1</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, hic.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/slider.jpg" alt="" class="d-block w-100 h-50">
+								<div class="carousel-caption">
+								<h5>Caption 2</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, hic.</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/category-2.jpg" alt="" class="d-block w-100 h-50">
+						</div>
+						<div class="carousel-item">
+							<img src="images/category-3.jpg" alt="" class="d-block w-100 h-50">
+						</div>
+					</div>
+					<!-- ol ngang hàng với carousel-inner để khi tự chuyển trang thì thanh lựa chọn này củng thay đổi theo -->
+					<ol class="carousel-indicators">
+						<li data-target="#home-slide" class="active" data-slide-to="0">1</li>
+						<li data-target="#home-slide" data-slide-to="1">2</li>
+						<li data-target="#home-slide" data-slide-to="2">3</li>
+						<li data-target="#home-slide" data-slide-to="3">4</li>
+					</ol>
+					
+				</div>
+				<!-- end carousel-inner -->
+
+				<a href="#home-slide" class="carousel-control-prev t-50" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a href="#home-slide" class="carousel-control-next" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+				<!-- end control icon next pre -->
+				
+
+			</div>
+			<div class="col-md-2"></div>
+
+		</div>
+	</div>
+	<style>
+		
+
+		.carousel-control-next, .carousel-control-prev {
+			top: 30px!important;
+		}
+	</style>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	
+</body>
+</html>

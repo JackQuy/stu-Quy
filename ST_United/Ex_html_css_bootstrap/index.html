@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="js/slick-1.8.1/slick.css" />
+    <link rel="stylesheet" href="js/slick-1.8.1/slick-theme.css" />
+    <script src="js/slick-1.8.1/slick.min.js"></script>
+    <script src="slick.js"></script>
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="header w-100 fixed-top bg-light">
+        <div class="row h-100">
+          <div class="col-3 h-100">
+            <div class="fb-search h-100 text-left ml-3">
+              <img
+                src="images/fb-image.png"
+                alt=""
+                class="h-100 border-0 py-2"
+              />
+              <input
+                type="search"
+                placeholder="Tìm kiếm trên Facebook"
+                class="round border-0"
+              />
+            </div>
+          </div>
+
+          <div class="col-6 h-100 header-main">
+            <ul class="list-unstyled d-inline-flex h-100 w-100 mb-0">
+              <li class="h-100">
+                <a href="#" class="text-dark"
+                  ><i
+                    class="fas fa-home h-100 header-main-item fa-2x active"
+                    data-toggle="tooltip"
+                    title="Trang chủ"
+                    data-placement="bottom"
+                  ></i
+                ></a>
+                <!-- <p class="note">Trang chủ</p> -->
+              </li>
+              <li class="h-100">
+                <a href="#" class="text-dark"
+                  ><i class="fas fa-tv h-100 header-main-item fa-2x"></i
+                ></a>
+              </li>
+              <li class="h-100">
+                <a href="#" class="text-dark"
+                  ><i class="fas fa-hotel h-100 header-main-item fa-2x"></i
+                ></a>
+              </li>
+              <li class="h-100">
+                <a href="#" class="text-dark"
+                  ><i class="fas fa-users h-100 header-main-item fa-2x"></i
+                ></a>
+              </li>
+              <li class="h-100">
+                <a href="#" class="text-dark"
+                  ><i class="fas fa-dice-d6 h-100 header-main-item fa-2x"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-3 header-sidebar h-100">
+            <ul
+              class="list-unstyled d-inline-flex text-center h-100 w-100 mb-0"
+            >
+              <li class="h-100">
+                <a href="#" class="text-dark h-100 rounded-circle"
+                  ><img
+                    src="images/quy.jpg"
+                    alt=""
+                    class="h-100 border-0 py-2 rounded-circle"
+                  />
+                  Quý</a>
+              </li>
+              <li class="h-100">
+                <a href="#" class="text-dark item h-100"
+                  ><i class="fas fa-plus mt-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-dark item h-100"
+                  ><i class="fab fa-facebook-messenger mt-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-dark item h-100"
+                  ><i class="fas fa-bell mt-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="text-dark item h-100"
+                  ><i class="fas fa-sort-down mt-3"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- =================== End Header ========================= -->
+
+      <div class="content row">
+
+        <div class="col-3 content-menu py-3 overflow-auto">
+          <ul class="list-menu list-unstyled">
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold"
+                ><img
+                  src="images/quy.jpg"
+                  alt=""
+                  class="h-100 border-0 p-2 rounded-circle"
+                />
+                Jack Quý</a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <!-- <i class="fas fa-user-friends text-primary h-100 p-3
+                "></i> -->
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png" alt="">
+                Bạn bè
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <!-- <i class="fas fa-bookmark h-100 p-3 text-primary"></i> -->
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png" alt="">
+                Đã lưu
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <i class="fas fa-users h-70 m-2 p-1 text-light rounded-circle border bg-primary"></i>
+                Nhóm
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" alt=""> 
+                Marketplace
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <i class="fas fa-angle-down h-60 m-2 p-2 text-dark rounded-circle bg-secondary"></i>
+                Xem thêm
+              </a>
+            </li>
+          </ul>
+
+          <ul class="list-menu list-unstyled mt-2">
+            <li class="w-100 ml-2 title">
+              <h6 class="d-inline-flex text-secondary h-100 p-2">Lối tắt của bạn</h6>
+              <a href="#" class="text-decoration-none h-100 p-2">Chỉnh sửa</a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <!-- <i class="fas fa-user-friends text-primary h-100 p-3
+                "></i> -->
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png" alt="">
+                Bạn bè
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <!-- <i class="fas fa-bookmark h-100 p-3 text-primary"></i> -->
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png" alt="">
+                Đã lưu
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <i class="fas fa-users h-70 m-2 p-1 text-light rounded-circle border bg-primary"></i>
+                Nhóm
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <img class="h-100 p-2" src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" alt=""> 
+                Marketplace
+              </a>
+            </li>
+            <li class="item w-100 ml-2">
+              <a href="#" class="text-dark h-100 rounded-circle w-100 d-block text-decoration-none font-weight-bold">
+                <i class="fas fa-angle-down h-60 m-2 p-2 text-dark rounded-circle bg-secondary"></i>
+                Xem thêm
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ================ End content menu ======================= -->
+
+        <!-- ================== Start sub content==================== -->
+        <div class="col-6 sub-content mt-3"> 
+
+            <div class="slick w-100">
+                <ul class="list-status w-100 pl-0">
+                    <li class="list-status-item item-1">
+                        <img src="images/quy.jpg" alt="" class="rounded-circle">
+                        <h3 class="text-light">Jack Quý</h3>
+                    </li>
+                    <li class="list-status-item item-2">
+                      <img src="images/quy.jpg" alt="" class="rounded-circle">
+                      <h3 class="text-light">Jack Quý</h3>
+                    </li>
+                    <li class="list-status-item item-3">
+                      <img src="images/quy.jpg" alt="" class="rounded-circle">
+                      <h3 class="text-light">Jack Quý</h3>
+                    </li>
+                    <li class="list-status-item item-4">
+                      <img src="images/quy.jpg" alt="" class="rounded-circle">
+                      <h3 class="text-light">Jack Quý</h3>
+                    </li>
+                    <li class="list-status-item item-5">
+                      <img src="images/quy.jpg" alt="" class="rounded-circle">
+                      <h3 class="text-light">Jack Quý</h3>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sub-content-status mx-auto p-3 bg-light mb-3">
+              <div class="status-top d-inline-flex">
+                <a href="#" class="imag">
+                  <img src="images/quy.jpg" alt="" class="w-100 border-0 rounded-circle"/>
+                </a>
+                <a href="#" class="text-secondary px-3 p-2 text-decoration-none text-secondary sub-status">Quý ơi, bạn đang nghĩ gì thế?</a>
+              </div>
+              <hr>
+              <div class="add-status">
+                  <a href="#" class="st-video text-secondary text-decoration-none p-2 rounded">
+                    <i class="fas fa-video text-danger"></i>
+                      Video trực tiếp
+                  </a>
+                  <a href="#" class="st-video text-secondary text-decoration-none p-2 rounded">
+                    <i class="fas fa-file-image text-success"></i>
+                    Ảnh/Video
+                  </a>
+                  <a href="#" class="st-video text-secondary text-decoration-none p-2 rounded">
+                    <i class="far fa-grin text-warning"></i>
+                    Cảm xúc/Hoạt động
+                  </a>
+              </div>
+            </div>
+
+            <div class="sub-content-status mx-auto p-3 bg-light mb-3">
+              <div class="status-top d-inline-flex">
+                <p class="mb-0"><b>Trương Quang Hiếu</b> đã thêm 2 bình luận về <b>bài viết</b> của mình</p>  
+              </div>
+              <hr>
+              <div class="add-status">
+                  <div class="sub-content-status-title d-inline-flex">
+                    <img src="images/family.jpg" alt="" class="rounded-circle mr-2">
+                    <div class="status-content">
+                      <h6 class="mb-0">Trương Quang Hiếu</h6>
+                      <p class="text-secondary mb-0">21 tháng 11 lúc 10:59</p>
+                    </div>
+                  </div>
+                  <img src="images/morning.jpg" alt="" class="w-100 mt-2">
+                  <div class="d-inline-flex">
+                    <i class="fas fa-thumbs-up ml-2 p-1 my-3 text-light bg-primary rounded-circle h-50"></i> 
+                    <a href="#" class="text-secondary mr-5 m-3">Jack Quý và 3 người khác</a>
+                    <p class="ml-5 mr-0 m-3">2 bình luận</p>
+                  </div>
+                  <hr class="my-0">
+                  <div class="substatus-selection d-inline-flex p-1">
+                    <a href="#" class="text-decoration-none text-secondary">
+                      <i class="fas fa-thumbs-up mr-2"></i> Thích
+                    </a>
+                    <a href="#" class="text-decoration-none text-secondary">
+                      <i class="fas fa-comment-alt mr-2"></i> Bình luận
+                    </a>
+                    <a href="#" class="text-decoration-none text-secondary">
+                      <i class="fas fa-share mr-2"></i> Chia sẻ
+                    </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+        <!-- ================== End sub content==================== -->
+
+        <!-- ================= Start content sidebar ========================= -->
+        <div class="col-md-3 content-sidebar">
+
+          <div class="content-sidebar-top">
+            <div class="sidebar-title d-inline-flex w-100">
+              <h6 class="py-2 w-50">Lời mời kết bạn</h6>
+              <a href="#" class="w-50 text-decoration-none p-2 text-center">Xem tất cả</a>
+            </div>
+            <div class="sidebar-content w-100 d-inline-flex p-1 rounded">
+              <img src="images/quy.jpg" alt="" class="imag border-0 rounded-circle"/>
+              <div class="sidebar-subcontent ml-3">
+                <div class="sidebar-subcontent-title d-inline-flex">
+                  <h6 class="py-1 mb-0">Quốc Danh</h6>
+                  <p class="text-secondary ml-5 mb-0">6 ngày</p>
+                </div>
+                <div class="friend text-secondary">
+                  <img src="images/quy.jpg" alt="" class="sub-imag rounded-circle"/>
+                  7 bạn chung
+                </div>
+                <div class="button my-2">
+                  <button class="btn btn-primary text-light">Xác nhận</button>
+                  <button class="btn btn-secondary px-4">Xóa</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="content-sidebar-birth">
+            <h6>Sinh nhật</h6>
+            <div class="content-sidebar-birth-content d-inline-flex">
+              <i class="fas fa-gift text-primary p-3"></i>
+              <p class="w-75">Hôm nay là sinh nhật của <b> Phạm Hiếu</b> và <b>3 người khác</b>.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="sidebar-bottom text-secondary">
+            <div class="sidebar-bottom-title d-inline-flex">
+              <h6 class="text-secondary py-3 pr-3">Người liên hệ</h6>
+              <a href="#" class="rounded-circle p-2 m-1 text-secondary h-50"><i class="fas fa-video"></i></a>
+              <a href="#" class="rounded-circle p-2 m-1 text-secondary h-50"><i class="fas fa-search"></i></a>
+              <a href="#" class="rounded-circle p-2 m-1 text-secondary h-50"><i class="fas fa-ellipsis-h"></i></a>
+            </div>
+            <ul class="sidebar-list-friend list-unstyled">
+              <li class="item w-100 font-weight-bold">
+                <img src="images/green.jpg" alt="" class="p-2 rounded-circle"> Nguyễn Hoàng
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/bird.jpg" alt="" class="p-2 rounded-circle"> Trần Thị Soa
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/family.jpg" alt="" class="p-2 rounded-circle"> Phú Hoa
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/morning.jpg" alt="" class="p-2 rounded-circle"> Kiều Oanh
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/green.jpg" alt="" class="p-2 rounded-circle"> Nguyễn Hoàng
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/bird.jpg" alt="" class="p-2 rounded-circle"> Trần Thị Soa
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/family.jpg" alt="" class="p-2 rounded-circle"> Phú Hoa
+              </li>
+              <li class="item w-100 font-weight-bold">
+                <img src="images/morning.jpg" alt="" class="p-2 rounded-circle"> Kiều Oanh
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

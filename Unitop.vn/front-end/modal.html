@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal boostrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center">Modal Boostrap</h1>
+				<button class="btn btn-primary" data-toggle="modal" data-target="#demo-modal">Show modal</button>
+				<a href="" class="run-modal">Run modal</a>
+				<div class="modal fade" id="demo-modal">
+					<div class="modal-dialog modal-dialog-scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Demo modal</h5>
+								<button class="close" data-dismiss="modal"><span>&times;</span></button>
+							</div>
+
+							<div class="modal-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque totam optio suscipit aliquid repudiandae, cum nisi, eveniet possimus voluptas commodi!</p>
+								<div class="container-fluid">
+									<div class="row">
+										<div class="col-12">Col-12</div>
+										<div class="col-6">Col 6</div>
+										<div class="col-6">Col 6</div>
+									</div>
+								</div>
+								
+							</div>
+
+							<div class="modal-footer">
+								<button class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+								<button class="btn btn-primary">Lưu</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.run-modal').click(function() {
+				// alert("ok");
+				$("#demo-modal").modal();
+				return false;
+			});
+		});
+	</script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

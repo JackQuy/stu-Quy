@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Danh sách sinh viên</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <style>
+        #table_id{
+            margin-top: 50px;
+            width: 100%;
+            /*padding-top: 10px!important;*/
+        }
+        table{
+            width: 100%;
+        }
+        table, th, td {
+          border: 1px solid #BDBDBD;
+          border-collapse: collapse;
+        }
+        hr{
+            border: 1px solid #BDBDBD; 
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Car list</h1><hr>
+    <div style="width: 50%; float: right; ">
+        <form action="DanhSachSinhVienServlet" method="get">
+            <div class="" style=" float: left; margin-right: 5px; width: 50%; display: flex; border: 1px solid #BDBDBD; border-radius: 5px;">
+                
+                <i style="border: 1px solid #BDBDBD; height: 100%; width: auto;padding: 10px;" class="fa fa-search"></i>
+                <input style="width: 90%;" class="fa fa-search" type="text" placeholder="Car Search" name="">
+            </div>
+             <div class="col-lg-4" style=" float: left; margin-right: 5px; display: flex; height: 100%; border: 1px solid #BDBDBD; border-radius: 5px;">
+                <label style="padding: 9px; border: 1px solid #BDBDBD; height: 100%;"><i class="fa fa-filter"></i> Filter By</label>
+                <select class="form-control" name="maKhoa" style="width: auto;">
+                    
+                    <option value="">Licence plate</option>
+                </select>
+            </div>
+            <!-- <button class="btn" type="submit">test</button> -->
+            <script type="text/javascript">
+            	$("[name='maKhoa']").val("<%=StringProcess.getVaildString(request.getParameter("khoa"))%>");
+            </script>
+
+            <button type="submit" class="btn btn-primary col-lg-2 " style="padding: 10px; border-radius: 5px; background: #00BFFF;">Search</button>
+        </form>
+    </div>
+    <br>
+    <div id="table_id" class="bs-example">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Licence plate</th>
+                <th>Car type</th>
+                <th>Car color</th>
+                <th>Company</th>
+                <th>Parking lot</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!-- <%
+            	ArrayList<SinhVien> listSinhVien = (ArrayList<SinhVien>)request.getAttribute("listSinhVien");
+            	for(SinhVien sv:listSinhVien){
+            %> -->
+            <tr>
+                <!-- <th scope="row"></th> -->
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+                <td>e</td>
+                <td>
+                    <a href="SuaSinhVienServlet?msv=<%=sv.getMsv()%>"><span class="fa fa-edit"> Edit</span></a>
+                    <a href="XoaSinhVienServlet?msv=<%=sv.getMsv()%>" style="margin-left: 30px;"><span class="fa fa-trash-alt"> Delete</span></a>
+                    
+                </td>
+            </tr>
+            
+            </tbody>
+        </table>
+         <div class="" style=" display: flex; " >
+                
+                <i style="border: 1px solid #BDBDBD; height: 100%; width: auto;padding: 10px;" class="fa fa-search"></i>
+                <input class="fa fa-search" type="text" placeholder="Car Search" name="">
+            </div>
+    </div>
+</div>
+</body>
+</html>

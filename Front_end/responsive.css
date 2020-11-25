@@ -1,0 +1,328 @@
+/*===============Responsive================*/
+
+@media screen and (max-width: 1920px) {
+	#wrapper2 #content1>p {
+		font-size: 42px;
+	}
+	#wrapper2 #sb-content1 p {
+	    font-size: 23px;
+	}
+	.The-Curseborn-Saga img{
+		width: 80%;
+	}
+	#menu a{
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 1800px) {
+	#wrapper5 #slick-slide11 p, #wrapper5 #slick-slide15 p,
+	#wrapper5 #slick-slide19 p, #wrapper5 #slick-slide113 p{
+		padding: 28px!important;
+	} 
+	#menu a{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.The-Curseborn-Saga {
+		margin-left: 8.4%;
+	}
+	#wrapper2 #content1>p {
+	    font-size: 28px;
+	}
+	#wrapper2 #sb-content1 p {
+	    font-size: 16px;
+	}
+	#footer #text {
+	    width: 30%;
+	    line-height: 1.5;
+	    padding: 26px 9%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#wrapper{
+		width: 100%;
+	}
+	#menu a{
+		font-size: 16px;
+	}
+	.The-Curseborn-Saga{
+		text-align: center;
+		width: 30%;
+		margin-left: 0px;
+	}
+	#menu{
+		margin-right: 2%;
+		padding-right: 5%;
+	}
+	
+	#wrapper1 #content{
+		width: 90%;
+	}
+	#menu ul{
+		padding-left: 0px!important;
+	}
+	#wrapper2{
+		padding-top: 30px;
+		height: auto!important;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper2 #content1>p{
+		height: 50px;
+		font-size: 32px;
+	}
+	#wrapper2 #sb-content1 p {
+	    font-size: 14px;
+	}
+	#wrapper2 #content2 {
+		height: auto;
+	}
+	#wrapper4 button{
+		width: 16%;
+	}
+	#wrapper4{
+		/* padding-top: 10px; */
+		height: auto;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper5 .novella p{
+		font-size: 14px!important;
+		line-height: 1.2;
+		padding: 44px 10px;
+	}
+	#wrapper5 #slick-slide11 p {
+	    padding: 33px!important;
+	}
+	#wrapper5 #slick-slide11 p, #wrapper5 #slick-slide15 p,
+	#wrapper5 #slick-slide19 p, #wrapper5 #slick-slide113 p{
+		padding: 36px 10px!important;
+	} 
+	#wrapper6{
+		overflow: inherit;
+		height: auto;
+		padding-bottom: 20px;
+	}
+
+	#wrapper7 #content{
+		width: 85%;
+	}
+	#wrapper8 #content1, #wrapper8 #content2{
+		width: 80%;
+	}
+	#footer #text{
+		width: 36.4%;
+		line-height: 1.5;
+		padding: 26px 9%;
+	}
+	#footer #icon{
+		width: 25%;
+	}
+	
+}
+
+@media screen and (max-width: 800px) {
+	#header .The-Curseborn-Saga {
+		float: none;
+		margin: 0px auto;
+		padding-top: 25px;
+	}
+	.The-Curseborn-Saga img {
+	    width: 35%;
+	}
+	#menu {
+		padding-top: 0px;
+	}
+	#icon-menu i, #respon-menu li{
+		display: block;
+	}
+	#menu{
+		display: none;
+	}
+	.Night-and-Day{
+		padding-top: 185px!important;
+	}
+	#respon-menu {
+		padding-top: 1%;
+	}
+	#header .The-Curseborn-Saga{
+		display: block;
+		padding-top: 0px!important;
+		padding: 2% 0px!important;
+		width: 100%;
+		margin: 0px auto;
+	}
+	#wrapper1{
+		padding-bottom: 70px;
+		height: auto!important;
+	}
+	.row1{
+		width: 30%;
+	}
+	.row2{
+		width: 20%;
+	}
+	#wrapper2 #content2{
+		top: 70px;
+		position: absolute;
+		width: 60%;
+		margin: 0px 20%!important;
+	}
+	#wrapper2 #content1>p{
+		height: 50px;
+		text-align: center;
+	}
+	#wrapper2{
+		width: 100%;
+		position: relative;
+	}
+	#wrapper2 #row1{
+		margin: 0px auto;
+		width: 30%;
+	}
+	#wrapper2 #content1{
+		width: 90%;
+		margin-top: 70%!important;
+		margin: 0px auto;
+		text-align: center;
+		margin-left: 5%;
+	}
+	#wrapper2 #content1 #sb-content1{
+		width: 100%;
+	}
+	#wrapper3{
+		height: auto;
+		overflow: inherit;
+		padding-bottom: 70px;
+	}
+	#wrapper4 button{
+		width: 30%;
+	}
+	#wrapper5 #content{
+		margin: 0px auto;
+	}
+	#wrapper5 #slick-slide11 p, #wrapper5 #slick-slide15 p,
+	#wrapper5 #slick-slide19 p, #wrapper5 #slick-slide113 p{
+		padding: 36px 20px!important;
+	} 
+	#wrapper5 .novella p {
+	    padding: 44px 0px;
+	}
+	#wrapper6 #sb1-content2{
+		float: none!important;
+	}
+	#wrapper6 #content2 #sb2-content2 {
+	    font-size: 16px;
+	    float: none!important;
+	}
+	#wrapper6 #content2 {
+	    margin-top: 40px;
+	}
+	#wrapper6 #content3 img{
+		width: 42%;
+	}
+	#wrapper8 #content1, #wrapper8 #content2{
+		width: 90%;
+	}
+	#wrapper8 {
+		padding-bottom: 30px;
+		height: auto;
+		overflow: inherit;
+	}
+	#wrapper8 #content2 #sb1-content2 #email{
+		margin-top: 31px;
+	}
+	#wrapper8 #content2 #sb1-content2>div{
+		float: none!important;
+		width: 100%!important;
+	}
+	#wrapper8 #content2>input{
+		width: 40%!important;
+	}
+	#wrapper8 #content2 {
+	    margin-top: 43px;
+	}
+	#wrapper8 h1 {
+		line-height: 1;
+	}
+	#wrapper7 {
+		height: auto;
+		overflow: inherit!important;
+		margin: 0px auto;
+		padding-bottom: 70px;
+	}
+	#wrapper7 #content{
+		width: 90%;
+		padding-bottom: 20px;
+	}
+	#footer #text, #footer #icon {
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 1% 0px;
+		line-height: 0;
+	}
+	#footer #text img{
+		width: 80%;
+	}
+	#footer {
+		height: auto;
+		overflow: inherit;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#wrapper5 #slick-slide11 p, #wrapper5 #slick-slide15 p,
+	#wrapper5 #slick-slide19 p, #wrapper5 #slick-slide113 p{
+		padding: 40px 20px!important;
+	} 
+	#wrapper5 #novellas .novella {
+		height: auto;
+		overflow: inherit;
+	}
+	#wrapper2 #content1>p {
+	    height: 80px;
+	}
+	#wrapper5 .novella p {
+	    font-size: 20px!important;
+	}
+	.The-Curseborn-Saga img {
+	    width: 54%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	#header .The-Curseborn-Saga{
+		padding: 6% 0px!important;
+	}
+	#respon-menu {
+		padding-top: 6%;
+	}
+	.The-Curseborn-Saga img {
+	    width: 70%;
+	}
+	h1 {
+		line-height: 1!important;
+	}
+	#wrapper6 #content2 #sb2-content2 {
+	    font-size: 13px;
+	}
+	#footer #text {
+		line-height: 1;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+	/* #header .The-Curseborn-Saga {
+		display: none;
+	} */
+	.Night-and-Day {
+		height: 73px;
+		line-height: 1;
+	}
+}

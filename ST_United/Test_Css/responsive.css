@@ -1,0 +1,33 @@
+/*===============Responsive================*/
+
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    margin-left: 5px;
+  }
+  hr {
+    width: 80%;
+    margin: 10% !important;
+  }
+  p {
+    width: 80%;
+  }
+  .list {
+    width: 90%;
+  }
+  .title {
+    margin: 0px;
+    padding: 10px;
+  }
+  .loading {
+    margin: 10px 40px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  h1 {
+    font-size: 12px;
+  }
+}
